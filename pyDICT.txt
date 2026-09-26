@@ -1,0 +1,2116 @@
+Python Glossary / واژه‌نامه پایتون
+===================================
+
+This dictionary contains ALL Python terms with definitions in both English and Persian.
+این دیکشنری شامل تمام اصطلاحات پایتون با تعاریف به دو زبان انگلیسی و فارسی است.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL BUILT-IN FUNCTIONS / تمام توابع داخلی
+═══════════════════════════════════════════════════════════════════════════════
+
+abs
+   English: Returns the absolute value of a number.
+   فارسی: مقدار مطلق یک عدد را برمی‌گرداند.
+
+all
+   English: Checks if all elements in an iterable are True.
+   فارسی: بررسی می‌کند که آیا همه عناصر یک iterable True هستند.
+
+any
+   English: Checks if at least one element in an iterable is True.
+   فارسی: بررسی می‌کند که آیا حداقل یک عنصر در iterable True است.
+
+ascii
+   English: Returns an ASCII representation of an object.
+   فارسی: نمایش ASCII از یک شیء را برمی‌گرداند.
+
+bin
+   English: Converts an integer to a binary string.
+   فارسی: یک عدد صحیح را به رشته دودویی تبدیل می‌کند.
+
+bool
+   English: Converts a value to a boolean (True/False).
+   فارسی: یک مقدار را به بولین (True/False) تبدیل می‌کند.
+
+breakpoint
+   English: Drops into the debugger at the call site.
+   فارسی: وارد دیباگر در محل فراخوانی می‌شود.
+
+bytearray
+   English: Creates a mutable bytearray object.
+   فارسی: یک شیء bytearray قابل تغییر ایجاد می‌کند.
+
+bytes
+   English: Creates a bytes object from an iterable or string.
+   فارسی: یک شیء bytes از یک iterable یا رشته ایجاد می‌کند.
+
+callable
+   English: Checks if an object is callable (can be called as a function).
+   فارسی: بررسی می‌کند که آیا یک شیء قابل فراخوانی است.
+
+chr
+   English: Returns a character from a Unicode code point.
+   فارسی: یک کاراکتر را از کد یونیکد برمی‌گرداند.
+
+classmethod
+   English: Converts a method to a class method.
+   فارسی: یک متد را به متد کلاسی تبدیل می‌کند.
+
+compile
+   English: Compiles source code into a code object.
+   فارسی: کد منبع را به یک شیء کد کامپایل می‌کند.
+
+complex
+   English: Creates a complex number from real and imaginary parts.
+   فارسی: یک عدد مختلط از بخش حقیقی و موهومی ایجاد می‌کند.
+
+delattr
+   English: Deletes an attribute from an object.
+   فارسی: یک ویژگی را از یک شیء حذف می‌کند.
+
+dict
+   English: Creates a dictionary object.
+   فارسی: یک شیء دیکشنری ایجاد می‌کند.
+
+dir
+   English: Returns a list of attributes and methods of an object.
+   فارسی: لیست ویژگی‌ها و متدهای یک شیء را برمی‌گرداند.
+
+divmod
+   English: Returns a tuple containing quotient and remainder of division.
+   فارسی: یک تاپل شامل خارج‌قسمت و باقیمانده تقسیم را برمی‌گرداند.
+
+enumerate
+   English: Returns an enumerate object with index-value pairs.
+   فارسی: یک شیء enumerate با جفت‌های ایندکس-مقدار برمی‌گرداند.
+
+eval
+   English: Evaluates a Python expression from a string.
+   فارسی: یک عبارت پایتون را از یک رشته ارزیابی می‌کند.
+
+exec
+   English: Executes Python code dynamically from a string or object.
+   فارسی: کد پایتون را به صورت پویا از رشته یا شیء اجرا می‌کند.
+
+filter
+   English: Filters items from an iterable using a function.
+   فارسی: آیتم‌ها را از یک iterable با استفاده از یک تابع فیلتر می‌کند.
+
+float
+   English: Converts a value to a floating-point number.
+   فارسی: یک مقدار را به عدد اعشاری تبدیل می‌کند.
+
+format
+   English: Formats a value using a format specification.
+   فارسی: یک مقدار را با استفاده از مشخصات قالب‌بندی، قالب‌بندی می‌کند.
+
+frozenset
+   English: Creates an immutable frozenset object.
+   فارسی: یک شیء frozenset غیرقابل تغییر ایجاد می‌کند.
+
+getattr
+   English: Gets the value of an attribute from an object.
+   فارسی: مقدار یک ویژگی را از یک شیء دریافت می‌کند.
+
+globals
+   English: Returns the global symbol table as a dictionary.
+   فارسی: جدول نمادهای سراسری را به صورت دیکشنری برمی‌گرداند.
+
+hasattr
+   English: Checks if an object has a specific attribute.
+   فارسی: بررسی می‌کند که آیا یک شیء ویژگی خاصی دارد.
+
+hash
+   English: Returns the hash value of an object.
+   فارسی: مقدار هش یک شیء را برمی‌گرداند.
+
+help
+   English: Invokes the built-in help system.
+   فارسی: سیستم راهنمای داخلی را فراخوانی می‌کند.
+
+hex
+   English: Converts an integer to a hexadecimal string.
+   فارسی: یک عدد صحیح را به رشته هگزادسیمال تبدیل می‌کند.
+
+id
+   English: Returns the identity (memory address) of an object.
+   فارسی: شناسه (آدرس حافظه) یک شیء را برمی‌گرداند.
+
+input
+   English: Reads a line from standard input (keyboard).
+   فارسی: یک خط از ورودی استاندارد (صفحه‌کلید) می‌خواند.
+
+int
+   English: Converts a value to an integer.
+   فارسی: یک مقدار را به عدد صحیح تبدیل می‌کند.
+
+isinstance
+   English: Checks if an object is an instance of a class or tuple of classes.
+   فارسی: بررسی می‌کند که آیا یک شیء نمونه‌ای از یک کلاس یا تاپل کلاس‌ها است.
+
+issubclass
+   English: Checks if a class is a subclass of another class.
+   فارسی: بررسی می‌کند که آیا یک کلاس زیرکلاس کلاس دیگری است.
+
+iter
+   English: Returns an iterator object from an iterable.
+   فارسی: یک شیء iterator از یک iterable برمی‌گرداند.
+
+len
+   English: Returns the length (number of items) of an object.
+   فارسی: طول (تعداد آیتم‌ها) یک شیء را برمی‌گرداند.
+
+list
+   English: Creates a list object from an iterable.
+   فارسی: یک شیء لیست از یک iterable ایجاد می‌کند.
+
+locals
+   English: Returns the local symbol table as a dictionary.
+   فارسی: جدول نمادهای محلی را به صورت دیکشنری برمی‌گرداند.
+
+map
+   English: Applies a function to every item in an iterable.
+   فارسی: یک تابع را به هر آیتم در یک iterable اعمال می‌کند.
+
+max
+   English: Returns the largest element in an iterable.
+   فارسی: بزرگترین عنصر را در یک iterable برمی‌گرداند.
+
+memoryview
+   English: Creates a memoryview object from a bytes-like object.
+   فارسی: یک شیء memoryview از یک شیء شبه‌بایت ایجاد می‌کند.
+
+min
+   English: Returns the smallest element in an iterable.
+   فارسی: کوچکترین عنصر را در یک iterable برمی‌گرداند.
+
+next
+   English: Returns the next item from an iterator.
+   فارسی: آیتم بعدی را از یک iterator برمی‌گرداند.
+
+object
+   English: Creates a new featureless object.
+   فارسی: یک شیء جدید بدون ویژگی ایجاد می‌کند.
+
+oct
+   English: Converts an integer to an octal string.
+   فارسی: یک عدد صحیح را به رشته هشتی تبدیل می‌کند.
+
+open
+   English: Opens a file and returns a file object.
+   فارسی: یک فایل را باز می‌کند و یک شیء فایل برمی‌گرداند.
+
+ord
+   English: Returns the Unicode code point of a character.
+   فارسی: کد یونیکد یک کاراکتر را برمی‌گرداند.
+
+pow
+   English: Returns the result of x raised to the power of y.
+   فارسی: نتیجه x به توان y را برمی‌گرداند.
+
+print
+   English: Prints objects to the text output stream.
+   فارسی: اشیاء را به خروجی متن چاپ می‌کند.
+
+property
+   English: Creates a property attribute.
+   فارسی: یک ویژگی property ایجاد می‌کند.
+
+range
+   English: Creates a sequence of numbers from start to stop.
+   فارسی: یک دنباله از اعداد از start تا stop ایجاد می‌کند.
+
+repr
+   English: Returns a string representation of an object.
+   فارسی: یک نمایش رشته‌ای از یک شیء برمی‌گرداند.
+
+reversed
+   English: Returns a reversed iterator from a sequence.
+   فارسی: یک iterator معکوس از یک دنباله برمی‌گرداند.
+
+round
+   English: Rounds a number to a specified precision.
+   فارسی: یک عدد را به دقت مشخصی گرد می‌کند.
+
+set
+   English: Creates a set object from an iterable.
+   فارسی: یک شیء مجموعه از یک iterable ایجاد می‌کند.
+
+setattr
+   English: Sets the value of an attribute on an object.
+   فارسی: مقدار یک ویژگی را روی یک شیء تنظیم می‌کند.
+
+slice
+   English: Creates a slice object for slicing sequences.
+   فارسی: یک شیء slice برای برش دنباله‌ها ایجاد می‌کند.
+
+sorted
+   English: Returns a sorted list from an iterable.
+   فارسی: یک لیست مرتب شده از یک iterable برمی‌گرداند.
+
+staticmethod
+   English: Converts a method to a static method.
+   فارسی: یک متد را به متد ایستا تبدیل می‌کند.
+
+str
+   English: Converts a value to a string.
+   فارسی: یک مقدار را به رشته تبدیل می‌کند.
+
+sum
+   English: Sums all elements in an iterable.
+   فارسی: همه عناصر را در یک iterable جمع می‌زند.
+
+super
+   English: Returns a proxy object for delegating method calls to a parent class.
+   فارسی: یک شیء نماینده برای واگذاری فراخوانی‌های متد به کلاس والد برمی‌گرداند.
+
+tuple
+   English: Creates a tuple object from an iterable.
+   فارسی: یک شیء تاپل از یک iterable ایجاد می‌کند.
+
+type
+   English: Returns the type of an object or creates a new type.
+   فارسی: نوع یک شیء را برمی‌گرداند یا یک نوع جدید ایجاد می‌کند.
+
+vars
+   English: Returns the __dict__ attribute of a module, class, or object.
+   فارسی: ویژگی __dict__ یک ماژول، کلاس، یا شیء را برمی‌گرداند.
+
+zip
+   English: Aggregates elements from multiple iterables into tuples.
+   فارسی: عناصر را از چند iterable در تاپل‌ها جمع‌آوری می‌کند.
+
+__import__
+   English: Called by the import statement to load a module.
+   فارسی: توسط دستور import برای بارگذاری یک ماژول فراخوانی می‌شود.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL BUILT-IN TYPES / تمام انواع داخلی
+═══════════════════════════════════════════════════════════════════════════════
+
+bool
+   English: Boolean type - True or False values.
+   فارسی: نوع بولین - مقادیر True یا False.
+
+bytearray
+   English: Mutable sequence of bytes (0-255).
+   فارسی: دنباله قابل تغییر از بایت‌ها (۰-۲۵۵).
+
+bytes
+   English: Immutable sequence of bytes (0-255).
+   فارسی: دنباله غیرقابل تغییر از بایت‌ها (۰-۲۵۵).
+
+complex
+   English: Complex number type with real and imaginary parts.
+   فارسی: نوع عدد مختلط با بخش حقیقی و موهومی.
+
+dict
+   English: Dictionary type - key-value mapping.
+   فارسی: نوع دیکشنری - نگاشت کلید-مقدار.
+
+float
+   English: Floating-point number type.
+   فارسی: نوع عدد اعشاری.
+
+frozenset
+   English: Immutable set type.
+   فارسی: نوع مجموعه غیرقابل تغییر.
+
+int
+   English: Integer number type.
+   فارسی: نوع عدد صحیح.
+
+list
+   English: List type - mutable sequence.
+   فارسی: نوع لیست - دنباله قابل تغییر.
+
+memoryview
+   English: Memory view type for buffer protocol.
+   فارسی: نوع نمای حافظه برای پروتکل بافر.
+
+NoneType
+   English: Type of the None object.
+   فارسی: نوع شیء None.
+
+range
+   English: Range type - immutable sequence of numbers.
+   فارسی: نوع range - دنباله غیرقابل تغییر از اعداد.
+
+set
+   English: Set type - unordered collection of unique items.
+   فارسی: نوع مجموعه - مجموعه نامرتب از آیتم‌های یکتا.
+
+slice
+   English: Slice type for slicing sequences.
+   فارسی: نوع slice برای برش دنباله‌ها.
+
+str
+   English: String type - immutable sequence of characters.
+   فارسی: نوع رشته - دنباله غیرقابل تغییر از کاراکترها.
+
+tuple
+   English: Tuple type - immutable sequence.
+   فارسی: نوع تاپل - دنباله غیرقابل تغییر.
+
+type
+   English: The type of a type object.
+   فارسی: نوع یک شیء نوع.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL KEYWORDS / تمام کلمات کلیدی
+═══════════════════════════════════════════════════════════════════════════════
+
+and
+   English: Logical AND operator.
+   فارسی: عملگر منطقی AND.
+
+as
+   English: Used to create an alias for a module or exception.
+   فارسی: برای ایجاد نام مستعار برای ماژول یا استثنا استفاده می‌شود.
+
+assert
+   English: Assertion for debugging.
+   فارسی: اظهار برای دیباگ.
+
+async
+   English: Defines an asynchronous function.
+   فارسی: تابع غیرهمزمان تعریف می‌کند.
+
+await
+   English: Waits for an awaitable object to complete.
+   فارسی: منتظر تکمیل یک شیء awaitable می‌ماند.
+
+break
+   English: Breaks out of a loop.
+   فارسی: از یک حلقه خارج می‌شود.
+
+case
+   English: Used in pattern matching (match-case).
+   فارسی: در تطبیق الگو استفاده می‌شود (match-case).
+
+class
+   English: Defines a new class.
+   فارسی: یک کلاس جدید تعریف می‌کند.
+
+continue
+   English: Continues to the next iteration of a loop.
+   فارسی: به تکرار بعدی حلقه ادامه می‌دهد.
+
+def
+   English: Defines a function.
+   فارسی: یک تابع تعریف می‌کند.
+
+del
+   English: Deletes an object or element.
+   فارسی: یک شیء یا عنصر را حذف می‌کند.
+
+elif
+   English: Else if condition.
+   فارسی: شرط else if.
+
+else
+   English: Else condition.
+   فارسی: شرط else.
+
+except
+   English: Catches an exception.
+   فارسی: یک استثنا را می‌گیرد.
+
+finally
+   English: Always executes after try-except.
+   فارسی: همیشه بعد از try-except اجرا می‌شود.
+
+for
+   English: For loop iteration.
+   فارسی: حلقه for.
+
+from
+   English: Imports from a module.
+   فارسی: از یک ماژول وارد می‌کند.
+
+global
+   English: Declares a global variable.
+   فارسی: یک متغیر سراسری اعلام می‌کند.
+
+if
+   English: If condition.
+   فارسی: شرط if.
+
+import
+   English: Imports a module.
+   فارسی: یک ماژول را وارد می‌کند.
+
+in
+   English: Membership test or iterable traversal.
+   فارسی: تست عضویت یا پیمایش iterable.
+
+is
+   English: Identity comparison operator.
+   فارسی: عملگر مقایسه هویت.
+
+lambda
+   English: Creates an anonymous function.
+   فارسی: یک تابع ناشناس ایجاد می‌کند.
+
+match
+   English: Pattern matching (match-case).
+   فارسی: تطبیق الگو (match-case).
+
+nonlocal
+   English: Declares a variable from an enclosing scope.
+   فارسی: یک متغیر از محدوده محصور را اعلام می‌کند.
+
+not
+   English: Logical NOT operator.
+   فارسی: عملگر منطقی NOT.
+
+or
+   English: Logical OR operator.
+   فارسی: عملگر منطقی OR.
+
+pass
+   English: Does nothing (placeholder).
+   فارسی: هیچ کاری انجام نمی‌دهد (جای‌نگین).
+
+raise
+   English: Raises an exception.
+   فارسی: یک استثنا را برمی‌انگیزد.
+
+return
+   English: Returns a value from a function.
+   فارسی: یک مقدار را از یک تابع برمی‌گرداند.
+
+try
+   English: Tests code for exceptions.
+   فارسی: کد را برای استثناها تست می‌کند.
+
+while
+   English: While loop.
+   فارسی: حلقه while.
+
+with
+   English: Context manager statement.
+   فارسی: دستور مدیریت زمینه.
+
+yield
+   English: Yields a value from a generator.
+   فارسی: یک مقدار را از یک جنریتور تولید می‌کند.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL SPECIAL METHODS / تمام متدهای خاص
+═══════════════════════════════════════════════════════════════════════════════
+
+__abs__
+   English: Called for abs() function.
+   فارسی: برای تابع abs() فراخوانی می‌شود.
+
+__add__
+   English: Called for addition (+) operator.
+   فارسی: برای عملگر جمع (+) فراخوانی می‌شود.
+
+__aenter__
+   English: Called at start of async with statement.
+   فارسی: در شروع دستور async with فراخوانی می‌شود.
+
+__aexit__
+   English: Called at end of async with statement.
+   فارسی: در پایان دستور async with فراخوانی می‌شود.
+
+__aiter__
+   English: Called to create an asynchronous iterator.
+   فارسی: برای ایجاد یک iterator غیرهمزمان فراخوانی می‌شود.
+
+__anext__
+   English: Called to get next item from asynchronous iterator.
+   فارسی: برای دریافت آیتم بعدی از iterator غیرهمزمان فراخوانی می‌شود.
+
+__await__
+   English: Called to make object awaitable.
+   فارسی: برای awaitable کردن شیء فراخوانی می‌شود.
+
+__call__
+   English: Makes an object callable like a function.
+   فارسی: یک شیء را مانند یک تابع قابل فراخوانی می‌کند.
+
+__contains__
+   English: Called for membership tests (in operator).
+   فارسی: برای تست عضویت (عملگر in) فراخوانی می‌شود.
+
+__del__
+   English: Called when an object is about to be destroyed.
+   فارسی: زمانی که یک شیء در حال نابودی است فراخوانی می‌شود.
+
+__delattr__
+   English: Called when deleting an attribute.
+   فارسی: زمانی که یک ویژگی حذف می‌شود فراخوانی می‌شود.
+
+__delete__
+   English: Called when deleting a descriptor attribute.
+   فارسی: زمانی که یک ویژگی descriptor حذف می‌شود فراخوانی می‌شود.
+
+__delitem__
+   English: Deletes an item from a container by index or key.
+   فارسی: یک آیتم را از ظرف با ایندکس یا کلید حذف می‌کند.
+
+__dir__
+   English: Called for dir() function.
+   فارسی: برای تابع dir() فراخوانی می‌شود.
+
+__divmod__
+   English: Called for divmod() function.
+   فارسی: برای تابع divmod() فراخوانی می‌شود.
+
+__enter__
+   English: Enter method for context managers (with statement).
+   فارسی: متد ورود برای مدیریت‌کننده‌های زمینه (دستور with).
+
+__eq__
+   English: Called for equality comparison (==).
+   فارسی: برای مقایسه برابری (==) فراخوانی می‌شود.
+
+__exit__
+   English: Exit method for context managers (with statement).
+   فارسی: متد خروج برای مدیریت‌کننده‌های زمینه (دستور with).
+
+__format__
+   English: Called for format() function.
+   فارسی: برای تابع format() فراخوانی می‌شود.
+
+__ge__
+   English: Called for greater-or-equal comparison (>=).
+   فارسی: برای مقایسه بزرگتر یا مساوی (>=) فراخوانی می‌شود.
+
+__get__
+   English: Called to get a descriptor attribute.
+   فارسی: برای دریافت یک ویژگی descriptor فراخوانی می‌شود.
+
+__getattr__
+   English: Called when an attribute is not found.
+   فارسی: زمانی که یک ویژگی پیدا نشود فراخوانی می‌شود.
+
+__getattribute__
+   English: Called for attribute access.
+   فارسی: برای دسترسی به ویژگی فراخوانی می‌شود.
+
+__getitem__
+   English: Gets an item from a container by index or key.
+   فارسی: یک آیتم را از ظرف با ایندکس یا کلید دریافت می‌کند.
+
+__gt__
+   English: Called for greater-than comparison (>).
+   فارسی: برای مقایسه بزرگتر (>) فراخوانی می‌شود.
+
+__hash__
+   English: Called for hash() function.
+   فارسی: برای تابع hash() فراخوانی می‌شود.
+
+__iadd__
+   English: Called for in-place addition (+=).
+   فارسی: برای جمع درجا (+=) فراخوانی می‌شود.
+
+__iand__
+   English: Called for in-place AND (&=).
+   فارسی: برای AND درجا (&=) فراخوانی می‌شود.
+
+__imul__
+   English: Called for in-place multiplication (*=).
+   فارسی: برای ضرب درجا (*=) فراخوانی می‌شود.
+
+__init__
+   English: Constructor method called when an object is created.
+   فارسی: متد سازنده - هنگام ایجاد یک شیء فراخوانی می‌شود.
+
+__init_subclass__
+   English: Called when a subclass is created.
+   فارسی: زمانی که یک زیرکلاس ایجاد می‌شود فراخوانی می‌شود.
+
+__ior__
+   English: Called for in-place OR (|=).
+   فارسی: برای OR درجا (|=) فراخوانی می‌شود.
+
+__isub__
+   English: Called for in-place subtraction (-=).
+   فارسی: برای تفریق درجا (-=) فراخوانی می‌شود.
+
+__iter__
+   English: Returns an iterator object for the container.
+   فارسی: یک شیء iterator برای ظرف برمی‌گرداند.
+
+__le__
+   English: Called for less-or-equal comparison (<=).
+   فارسی: برای مقایسه کوچکتر یا مساوی (<=) فراخوانی می‌شود.
+
+__len__
+   English: Returns the length of a container.
+   فارسی: طول یک ظرف را برمی‌گرداند.
+
+__lt__
+   English: Called for less-than comparison (<).
+   فارسی: برای مقایسه کوچکتر (<) فراخوانی می‌شود.
+
+__matmul__
+   English: Called for matrix multiplication (@).
+   فارسی: برای ضرب ماتریسی (@) فراخوانی می‌شود.
+
+__mod__
+   English: Called for modulo (%).
+   فارسی: برای عملگر مدول (%) فراخوانی می‌شود.
+
+__mul__
+   English: Called for multiplication (*).
+   فارسی: برای عملگر ضرب (*) فراخوانی می‌شود.
+
+__ne__
+   English: Called for inequality comparison (!=).
+   فارسی: برای مقایسه نامساوی (!=) فراخوانی می‌شود.
+
+__neg__
+   English: Called for unary negation (-).
+   فارسی: برای نفی یکانی (-) فراخوانی می‌شود.
+
+__next__
+   English: Returns the next item from an iterator.
+   فارسی: آیتم بعدی را از یک iterator برمی‌گرداند.
+
+__or__
+   English: Called for bitwise OR (|).
+   فارسی: برای OR بیتی (|) فراخوانی می‌شود.
+
+__pos__
+   English: Called for unary plus (+).
+   فارسی: برای مثبت یکانی (+) فراخوانی می‌شود.
+
+__pow__
+   English: Called for pow() function.
+   فارسی: برای تابع pow() فراخوانی می‌شود.
+
+__repr__
+   English: Returns a string representation of an object for developers.
+   فارسی: نمایش رشته‌ای از یک شیء برای توسعه‌دهندگان را برمی‌گرداند.
+
+__reversed__
+   English: Called for reversed() function.
+   فارسی: برای تابع reversed() فراخوانی می‌شود.
+
+__round__
+   English: Called for round() function.
+   فارسی: برای تابع round() فراخوانی می‌شود.
+
+__set__
+   English: Called to set a descriptor attribute.
+   فارسی: برای تنظیم یک ویژگی descriptor فراخوانی می‌شود.
+
+__setattr__
+   English: Called when setting an attribute.
+   فارسی: زمانی که یک ویژگی تنظیم می‌شود فراخوانی می‌شود.
+
+__setitem__
+   English: Sets an item in a container by index or key.
+   فارسی: یک آیتم را در ظرف با ایندکس یا کلید تنظیم می‌کند.
+
+__str__
+   English: Returns a string representation of an object for users.
+   فارسی: نمایش رشته‌ای از یک شیء برای کاربران را برمی‌گرداند.
+
+__sub__
+   English: Called for subtraction (-).
+   فارسی: برای عملگر تفریق (-) فراخوانی می‌شود.
+
+__truediv__
+   English: Called for true division (/).
+   فارسی: برای تقسیم واقعی (/) فراخوانی می‌شود.
+
+__xor__
+   English: Called for bitwise XOR (^).
+   فارسی: برای XOR بیتی (^) فراخوانی می‌شود.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL EXCEPTIONS / تمام استثناها
+═══════════════════════════════════════════════════════════════════════════════
+
+ArithmeticError
+   English: Base class for arithmetic errors.
+   فارسی: کلاس پایه برای خطاهای حسابی.
+
+AssertionError
+   English: Raised when an assert statement fails.
+   فارسی: زمانی که دستور assert شکست می‌خورد، رخ می‌دهد.
+
+AttributeError
+   English: Raised when an attribute reference fails.
+   فارسی: زمانی که ارجاع ویژگی ناموفق باشد، رخ می‌دهد.
+
+BaseException
+   English: Base class for all exceptions.
+   فارسی: کلاس پایه برای همه استثناها.
+
+EOFError
+   English: Raised when input() hits end-of-file.
+   فارسی: زمانی که input() به انتهای فایل برسد، رخ می‌دهد.
+
+Exception
+   English: Base class for all built-in exceptions.
+   فارسی: کلاس پایه برای همه استثناهای داخلی.
+
+FileNotFoundError
+   English: Raised when a file is not found.
+   فارسی: زمانی که فایل پیدا نشود، رخ می‌دهد.
+
+FloatingPointError
+   English: Raised when a floating point operation fails.
+   فارسی: زمانی که عملیات اعشاری شکست می‌خورد، رخ می‌دهد.
+
+ImportError
+   English: Raised when an import fails.
+   فارسی: زمانی که وارد کردن ناموفق باشد، رخ می‌دهد.
+
+IndexError
+   English: Raised when a sequence index is out of range.
+   فارسی: زمانی که ایندکس دنباله خارج از محدوده باشد، رخ می‌دهد.
+
+KeyError
+   English: Raised when a dictionary key is not found.
+   فارسی: زمانی که کلید دیکشنری پیدا نشود، رخ می‌دهد.
+
+KeyboardInterrupt
+   English: Raised when the user presses Ctrl+C.
+   فارسی: زمانی که کاربر Ctrl+C را فشار دهد، رخ می‌دهد.
+
+MemoryError
+   English: Raised when an operation runs out of memory.
+   فارسی: زمانی که عملیات با کمبود حافظه مواجه شود، رخ می‌دهد.
+
+NameError
+   English: Raised when a name is not found.
+   فارسی: زمانی که یک نام پیدا نشود، رخ می‌دهد.
+
+NotImplementedError
+   English: Raised when an abstract method is not implemented.
+   فارسی: زمانی که یک متد انتزاعی پیاده‌سازی نشده است، رخ می‌دهد.
+
+OSError
+   English: Raised for operating system errors.
+   فارسی: برای خطاهای سیستم‌عامل رخ می‌دهد.
+
+OverflowError
+   English: Raised when a number exceeds the maximum limit.
+   فارسی: زمانی که یک عدد از حداکثر حد تجاوز کند، رخ می‌دهد.
+
+RecursionError
+   English: Raised when recursion depth is exceeded.
+   فارسی: زمانی که عمق بازگشت تجاوز شود، رخ می‌دهد.
+
+ReferenceError
+   English: Raised when a weak reference is accessed after being garbage collected.
+   فارسی: زمانی که یک ارجاع ضعیف پس از جمع‌آوری زباله دسترسی شود، رخ می‌دهد.
+
+RuntimeError
+   English: Raised for errors that don't fall into other categories.
+   فارسی: برای خطاهایی که در دسته‌های دیگر قرار نمی‌گیرند، رخ می‌دهد.
+
+StopIteration
+   English: Raised when an iterator has no more items.
+   فارسی: زمانی که iterator آیتم دیگری ندارد، رخ می‌دهد.
+
+SyntaxError
+   English: Raised when there is a syntax error in code.
+   فارسی: زمانی که خطای نحوی در کد وجود دارد، رخ می‌دهد.
+
+SystemError
+   English: Raised when the interpreter encounters an internal error.
+   فارسی: زمانی که مفسر با خطای داخلی مواجه شود، رخ می‌دهد.
+
+SystemExit
+   English: Raised by sys.exit() to exit the interpreter.
+   فارسی: توسط sys.exit() برای خروج از مفسر رخ می‌دهد.
+
+TypeError
+   English: Raised when an operation is applied to an inappropriate type.
+   فارسی: زمانی که عملیات روی نوع نامناسب اعمال شود، رخ می‌دهد.
+
+UnboundLocalError
+   English: Raised when a local variable is referenced before assignment.
+   فارسی: زمانی که به یک متغیر محلی قبل از انتساب ارجاع شود، رخ می‌دهد.
+
+UnicodeError
+   English: Raised for encoding/decoding errors.
+   فارسی: برای خطاهای رمزگذاری/رمزگشایی رخ می‌دهد.
+
+ValueError
+   English: Raised when a function receives an argument of correct type but inappropriate value.
+   فارسی: زمانی که تابع آرگومانی با نوع صحیح اما مقدار نامناسب دریافت کند، رخ می‌دهد.
+
+ZeroDivisionError
+   English: Raised when dividing by zero.
+   فارسی: زمانی که تقسیم بر صفر انجام شود، رخ می‌دهد.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL MODULES / تمام ماژول‌ها
+═══════════════════════════════════════════════════════════════════════════════
+
+abc
+   English: Abstract base classes for defining interfaces.
+   فارسی: کلاس‌های پایه انتزاعی برای تعریف واسط‌ها.
+
+aifc
+   English: AIFF audio file reading and writing.
+   فارسی: خواندن و نوشتن فایل‌های صوتی AIFF.
+
+antigravity
+   English: Hidden Easter egg module - shows a comic.
+   فارسی: ماژول تخم‌مرغ پنهان - یک کمیک نشان می‌دهد.
+
+argparse
+   English: Command-line argument parsing.
+   فارسی: تجزیه آرگومان‌های خط فرمان.
+
+array
+   English: Efficient arrays of numeric values.
+   فارسی: آرایه‌های کارآمد از مقادیر عددی.
+
+ast
+   English: Abstract Syntax Tree parsing.
+   فارسی: تجزیه درخت نحو انتزاعی.
+
+asynchat
+   English: Asynchronous socket command/response handler.
+   فارسی: مدیریت دستور/پاسخ سوکت غیرهمزمان.
+
+asyncio
+   English: Asynchronous I/O, event loop, and coroutines.
+   فارسی: I/O غیرهمزمان، حلقه رویداد و همروال‌ها.
+
+asyncore
+   English: Asynchronous socket handler.
+   فارسی: مدیریت سوکت غیرهمزمان.
+
+atexit
+   English: Register functions to be called on exit.
+   فارسی: ثبت توابع برای فراخوانی در زمان خروج.
+
+audioop
+   English: Audio signal processing.
+   فارسی: پردازش سیگنال صوتی.
+
+base64
+   English: Base16, Base32, Base64 encoding.
+   فارسی: رمزگذاری Base16، Base32، Base64.
+
+bdb
+   English: Debugger framework.
+   فارسی: چارچوب دیباگر.
+
+binascii
+   English: Binary to ASCII conversion.
+   فارسی: تبدیل باینری به ASCII.
+
+bisect
+   English: Binary search algorithm.
+   فارسی: الگوریتم جستجوی دودویی.
+
+builtins
+   English: Built-in functions and exceptions.
+   فارسی: توابع داخلی و استثناها.
+
+bz2
+   English: bzip2 compression.
+   فارسی: فشرده‌سازی bzip2.
+
+calendar
+   English: Date and calendar functions.
+   فارسی: توابع تاریخ و تقویم.
+
+cgi
+   English: CGI (Common Gateway Interface) support.
+   فارسی: پشتیبانی CGI.
+
+cgitb
+   English: CGI traceback handler.
+   فارسی: مدیریت traceback CGI.
+
+chunk
+   English: IFF chunked data parser.
+   فارسی: تجزیه‌کننده داده‌های تکه‌تکه IFF.
+
+cmath
+   English: Mathematical functions for complex numbers.
+   فارسی: توابع ریاضی برای اعداد مختلط.
+
+cmd
+   English: Command-line line-oriented interpreter.
+   فارسی: مفسر خط‌محور خط فرمان.
+
+code
+   English: Code manipulation and execution.
+   فارسی: دستکاری و اجرای کد.
+
+codecs
+   English: Encoding and decoding for text.
+   فارسی: رمزگذاری و رمزگشایی برای متن.
+
+codeop
+   English: Compile and execute code.
+   فارسی: کامپایل و اجرای کد.
+
+collections
+   English: Specialized container datatypes.
+   فارسی: انواع داده‌های ظرف تخصصی.
+
+colorsys
+   English: Color system conversions.
+   فارسی: تبدیل‌های سیستم رنگی.
+
+compileall
+   English: Compile all Python source files.
+   فارسی: کامپایل همه فایل‌های منبع پایتون.
+
+concurrent
+   English: Concurrent execution (threads, processes).
+   فارسی: اجرای همزمان (رشته‌ها، پردازش‌ها).
+
+configparser
+   English: INI file parsing.
+   فارسی: تجزیه فایل‌های INI.
+
+contextlib
+   English: Context manager utilities.
+   فارسی: ابزارهای مدیریت زمینه.
+
+copy
+   English: Shallow and deep copy operations.
+   فارسی: عملیات کپی سطحی و عمیق.
+
+cProfile
+   English: C-based profiler.
+   فارسی: پروفایلر مبتنی بر C.
+
+crypt
+   English: Unix password hashing.
+   فارسی: هش کردن رمز عبور یونیکس.
+
+csv
+   English: CSV file reading and writing.
+   فارسی: خواندن و نوشتن فایل‌های CSV.
+
+ctypes
+   English: Foreign function interface for C.
+   فارسی: واسط تابع خارجی برای C.
+
+curses
+   English: Terminal screen handling.
+   فارسی: مدیریت صفحه ترمینال.
+
+dataclasses
+   English: Data classes.
+   فارسی: کلاس‌های داده.
+
+datetime
+   English: Basic date and time types.
+   فارسی: انواع پایه تاریخ و زمان.
+
+dbm
+   English: Database manager.
+   فارسی: مدیریت پایگاه داده.
+
+decimal
+   English: Decimal floating point arithmetic.
+   فارسی: محاسبات اعشاری ممیز شناور.
+
+difflib
+   English: Difference comparison (diff).
+   فارسی: مقایسه تفاوت (diff).
+
+dis
+   English: Python bytecode disassembler.
+   فارسی: دیساسمبلر بایت‌کد پایتون.
+
+distutils
+   English: Distribution utilities.
+   فارسی: ابزارهای توزیع.
+
+doctest
+   English: Test code by running examples.
+   فارسی: تست کد با اجرای مثال‌ها.
+
+email
+   English: Email handling and parsing.
+   فارسی: مدیریت و تجزیه ایمیل.
+
+encodings
+   English: String encoding support.
+   فارسی: پشتیبانی از رمزگذاری رشته.
+
+enum
+   English: Enumeration support.
+   فارسی: پشتیبانی از شمارش‌ها.
+
+errno
+   English: Standard errno system symbols.
+   فارسی: نمادهای سیستم errno استاندارد.
+
+faulthandler
+   English: Fault handler for debugging.
+   فارسی: مدیریت خطا برای دیباگ.
+
+filecmp
+   English: File comparison.
+   فارسی: مقایسه فایل‌ها.
+
+fileinput
+   English: Iterate over lines from multiple input streams.
+   فارسی: پیمایش خطوط از چند جریان ورودی.
+
+fnmatch
+   English: Unix filename pattern matching.
+   فارسی: تطبیق الگوی نام فایل یونیکس.
+
+fractions
+   English: Rational numbers.
+   فارسی: اعداد گویا.
+
+ftplib
+   English: FTP protocol client.
+   فارسی: کلاینت پروتکل FTP.
+
+functools
+   English: Higher-order functions and operations on callables.
+   فارسی: توابع مرتبه بالاتر و عملیات روی callable‌ها.
+
+gc
+   English: Garbage collection interface.
+   فارسی: واسط جمع‌آوری زباله.
+
+getopt
+   English: Command-line option parsing.
+   فارسی: تجزیه گزینه‌های خط فرمان.
+
+getpass
+   English: Password input.
+   فارسی: ورودی رمز عبور.
+
+gettext
+   English: Internationalization (I18N).
+   فارسی: بین‌المللی‌سازی (I18N).
+
+glob
+   English: Unix pathname pattern expansion.
+   فارسی: گسترش الگوی مسیر یونیکس.
+
+gzip
+   English: Gzip compression.
+   فارسی: فشرده‌سازی gzip.
+
+hashlib
+   English: Hashing algorithms (SHA, MD5, etc.).
+   فارسی: الگوریتم‌های هش (SHA، MD5 و غیره).
+
+heapq
+   English: Heap queue algorithm.
+   فارسی: الگوریتم صف هیپ.
+
+hmac
+   English: HMAC (keyed-hash) authentication.
+   فارسی: احراز هویت HMAC.
+
+http
+   English: HTTP client and server handling.
+   فارسی: مدیریت کلاینت و سرور HTTP.
+
+idlelib
+   English: IDLE editor and development environment.
+   فارسی: ویرایشگر IDLE و محیط توسعه.
+
+imaplib
+   English: IMAP4 protocol client.
+   فارسی: کلاینت پروتکل IMAP4.
+
+imp
+   English: Import internals (deprecated).
+   فارسی: داخلی‌های import (منسوخ شده).
+
+importlib
+   English: Import implementation.
+   فارسی: پیاده‌سازی import.
+
+inspect
+   English: Inspect live objects.
+   فارسی: بررسی اشیاء زنده.
+
+io
+   English: Core I/O tools.
+   فارسی: ابزارهای اصلی I/O.
+
+ipaddress
+   English: IPv4/IPv6 manipulation.
+   فارسی: دستکاری IPv4/IPv6.
+
+itertools
+   English: Functions for efficient looping.
+   فارسی: توابع برای حلقه‌های کارآمد.
+
+json
+   English: JSON encoder and decoder.
+   فارسی: رمزگذار و رمزگشای JSON.
+
+keyword
+   English: List of Python keywords.
+   فارسی: لیست کلمات کلیدی پایتون.
+
+linecache
+   English: Cache lines from files.
+   فارسی: کش کردن خطوط از فایل‌ها.
+
+locale
+   English: Internationalization services.
+   فارسی: خدمات بین‌المللی‌سازی.
+
+logging
+   English: Flexible event logging system.
+   فارسی: سیستم ثبت رویداد انعطاف‌پذیر.
+
+lzma
+   English: LZMA compression.
+   فارسی: فشرده‌سازی LZMA.
+
+mailbox
+   English: Mailbox handling.
+   فارسی: مدیریت صندوق پست.
+
+mailcap
+   English: Mailcap file handling.
+   فارسی: مدیریت فایل mailcap.
+
+marshal
+   English: Object serialization.
+   فارسی: سریال‌سازی اشیاء.
+
+math
+   English: Mathematical functions (sqrt, sin, cos, etc.).
+   فارسی: توابع ریاضی (sqrt، sin، cos و غیره).
+
+mimetypes
+   English: MIME type guessing.
+   فارسی: حدس نوع MIME.
+
+mmap
+   English: Memory-mapped files.
+   فارسی: فایل‌های نگاشت شده به حافظه.
+
+modulefinder
+   English: Find modules used by a script.
+   فارسی: پیدا کردن ماژول‌های استفاده شده توسط یک اسکریپت.
+
+multiprocessing
+   English: Process-based parallelism.
+   فارسی: موازی‌سازی مبتنی بر پردازش.
+
+netrc
+   English: netrc file parsing.
+   فارسی: تجزیه فایل netrc.
+
+nntplib
+   English: NNTP protocol client.
+   فارسی: کلاینت پروتکل NNTP.
+
+numbers
+   English: Numeric abstract base classes.
+   فارسی: کلاس‌های پایه انتزاعی عددی.
+
+operator
+   English: Standard operators as functions.
+   فارسی: عملگرهای استاندارد به عنوان توابع.
+
+optparse
+   English: Command-line option parser.
+   فارسی: تجزیه‌کننده گزینه‌های خط فرمان.
+
+os
+   English: Operating system interface.
+   فارسی: واسط سیستم‌عامل.
+
+pathlib
+   English: Object-oriented filesystem paths.
+   فارسی: مسیرهای سیستم فایل شیءگرا.
+
+pdb
+   English: Python debugger.
+   فارسی: دیباگر پایتون.
+
+pickle
+   English: Object serialization.
+   فارسی: سریال‌سازی اشیاء.
+
+pipes
+   English: Shell pipeline interface.
+   فارسی: واسط خط لوله شل.
+
+pkgutil
+   English: Package extension utilities.
+   فارسی: ابزارهای گسترش بسته.
+
+platform
+   English: Platform identification.
+   فارسی: شناسایی پلتفرم.
+
+plistlib
+   English: Mac OS X property list handling.
+   فارسی: مدیریت لیست ویژگی‌های Mac OS X.
+
+poplib
+   English: POP3 protocol client.
+   فارسی: کلاینت پروتکل POP3.
+
+pprint
+   English: Pretty-print data structures.
+   فارسی: چاپ زیبای ساختارهای داده.
+
+profile
+   English: Python profiler.
+   فارسی: پروفایلر پایتون.
+
+pstats
+   English: Profile statistics.
+   فارسی: آمار پروفایل.
+
+pty
+   English: Pseudo-terminal handling.
+   فارسی: مدیریت ترمینال مجازی.
+
+pwd
+   English: Password database access.
+   فارسی: دسترسی به پایگاه داده رمز عبور.
+
+py_compile
+   English: Compile Python source files.
+   فارسی: کامپایل فایل‌های منبع پایتون.
+
+pyclbr
+   English: Python class browser.
+   فارسی: مرورگر کلاس پایتون.
+
+pydoc
+   English: Documentation generator and help system.
+   فارسی: تولیدکننده مستندات و سیستم راهنما.
+
+queue
+   English: Queue data structure.
+   فارسی: ساختار داده صف.
+
+quopri
+   English: Quoted-printable encoding.
+   فارسی: رمزگذاری quoted-printable.
+
+random
+   English: Random number generation.
+   فارسی: تولید اعداد تصادفی.
+
+re
+   English: Regular expression operations.
+   فارسی: عملیات عبارت منظم.
+
+readline
+   English: GNU readline interface.
+   فارسی: واسط GNU readline.
+
+reprlib
+   English: Alternate repr() implementation.
+   فارسی: پیاده‌سازی جایگزین repr().
+
+resource
+   English: Resource usage information.
+   فارسی: اطلاعات مصرف منابع.
+
+rlcompleter
+   English: Readline completer.
+   فارسی: تکمیل‌کننده readline.
+
+runpy
+   English: Run Python modules.
+   فارسی: اجرای ماژول‌های پایتون.
+
+sched
+   English: Event scheduler.
+   فارسی: زمان‌بندی رویداد.
+
+secrets
+   English: Secure random number generation.
+   فارسی: تولید اعداد تصادفی امن.
+
+select
+   English: I/O multiplexing.
+   فارسی: مالتی‌پلکسینگ I/O.
+
+shelve
+   English: Persistent dictionary.
+   فارسی: دیکشنری پایدار.
+
+shlex
+   English: Simple lexical analysis.
+   فارسی: تحلیل لغوی ساده.
+
+shutil
+   English: High-level file operations.
+   فارسی: عملیات سطح بالای فایل.
+
+signal
+   English: Signal handling.
+   فارسی: مدیریت سیگنال.
+
+site
+   English: Site-specific configuration.
+   فارسی: پیکربندی خاص سایت.
+
+smtpd
+   English: SMTP server.
+   فارسی: سرور SMTP.
+
+smtplib
+   English: SMTP protocol client.
+   فارسی: کلاینت پروتکل SMTP.
+
+sndhdr
+   English: Sound file header detection.
+   فارسی: تشخیص هدر فایل صوتی.
+
+socket
+   English: Network communication (socket programming).
+   فارسی: ارتباطات شبکه (برنامه‌نویسی سوکت).
+
+socketserver
+   English: Network server framework.
+   فارسی: چارچوب سرور شبکه.
+
+sqlite3
+   English: SQLite database interface.
+   فارسی: واسط پایگاه داده SQLite.
+
+ssl
+   English: SSL/TLS secure network connections.
+   فارسی: اتصالات شبکه امن SSL/TLS.
+
+stat
+   English: File status constants.
+   فارسی: ثابت‌های وضعیت فایل.
+
+statistics
+   English: Statistical functions (mean, median, mode, etc.).
+   فارسی: توابع آماری (میانگین، میانه، مُد و غیره).
+
+string
+   English: Common string operations and constants.
+   فارسی: عملیات رشته‌ای رایج و ثابت‌ها.
+
+stringprep
+   English: String preparation.
+   فارسی: آماده‌سازی رشته.
+
+struct
+   English: Pack/unpack binary data.
+   فارسی: بسته‌بندی/باز کردن داده‌های باینری.
+
+subprocess
+   English: Subprocess management (spawn new processes).
+   فارسی: مدیریت زیرپردازش‌ها (ایجاد پردازش‌های جدید).
+
+sunau
+   English: Sun AU audio file handling.
+   فارسی: مدیریت فایل‌های صوتی Sun AU.
+
+symtable
+   English: Symbol table access.
+   فارسی: دسترسی به جدول نمادها.
+
+sys
+   English: System-specific parameters and functions.
+   فارسی: پارامترها و توابع خاص سیستم.
+
+sysconfig
+   English: Python configuration information.
+   فارسی: اطلاعات پیکربندی پایتون.
+
+tabnanny
+   English: Check for indentation errors.
+   فارسی: بررسی خطاهای تورفتگی.
+
+tarfile
+   English: Tar archive reading and writing.
+   فارسی: خواندن و نوشتن آرشیو tar.
+
+telnetlib
+   English: Telnet protocol client.
+   فارسی: کلاینت پروتکل Telnet.
+
+tempfile
+   English: Temporary file and directory creation.
+   فارسی: ایجاد فایل‌ها و دایرکتوری‌های موقت.
+
+textwrap
+   English: Text wrapping and filling.
+   فارسی: پیچیدن و پر کردن متن.
+
+threading
+   English: Thread-based parallelism.
+   فارسی: موازی‌سازی مبتنی بر رشته.
+
+time
+   English: Time functions and sleeping.
+   فارسی: توابع زمان و توقف.
+
+timeit
+   English: Measure execution time of code.
+   فارسی: اندازه‌گیری زمان اجرای کد.
+
+tkinter
+   English: Tk GUI toolkit interface.
+   فارسی: واسط ابزارک GUI Tk.
+
+token
+   English: Token constants.
+   فارسی: ثابت‌های token.
+
+tokenize
+   English: Tokenizer for Python source code.
+   فارسی: توکن‌ساز برای کد منبع پایتون.
+
+trace
+   English: Trace or track Python execution.
+   فارسی: ردیابی اجرای پایتون.
+
+traceback
+   English: Exception traceback handling.
+   فارسی: مدیریت traceback استثنا.
+
+tracemalloc
+   English: Memory allocation tracing.
+   فارسی: ردیابی تخصیص حافظه.
+
+tty
+   English: Terminal control.
+   فارسی: کنترل ترمینال.
+
+turtle
+   English: Turtle graphics.
+   فارسی: گرافیک لاک‌پشتی.
+
+types
+   English: Dynamic type creation.
+   فارسی: ایجاد نوع پویا.
+
+typing
+   English: Support for type hints.
+   فارسی: پشتیبانی از نوع‌نماها.
+
+unicodedata
+   English: Unicode character database.
+   فارسی: پایگاه داده کاراکترهای یونیکد.
+
+unittest
+   English: Unit testing framework.
+   فارسی: چارچوب تست واحد.
+
+urllib
+   English: URL handling and web resources.
+   فارسی: مدیریت URL و منابع وب.
+
+uu
+   English: UUencode/UUdecode.
+   فارسی: UUencode/UUdecode.
+
+uuid
+   English: UUID objects.
+   فارسی: اشیاء UUID.
+
+venv
+   English: Virtual environment creation.
+   فارسی: ایجاد محیط مجازی.
+
+warnings
+   English: Warning handling.
+   فارسی: مدیریت هشدارها.
+
+wave
+   English: WAV audio file reading and writing.
+   فارسی: خواندن و نوشتن فایل‌های صوتی WAV.
+
+weakref
+   English: Weak references.
+   فارسی: ارجاعات ضعیف.
+
+webbrowser
+   English: Web browser interface.
+   فارسی: واسط مرورگر وب.
+
+wsgiref
+   English: WSGI reference implementation.
+   فارسی: پیاده‌سازی مرجع WSGI.
+
+xdrlib
+   English: XDR (External Data Representation).
+   فارسی: XDR (نمایش داده خارجی).
+
+xml
+   English: XML processing (parse and generate).
+   فارسی: پردازش XML (تجزیه و تولید).
+
+xmlrpc
+   English: XML-RPC client and server.
+   فارسی: کلاینت و سرور XML-RPC.
+
+zipapp
+   English: Zip application archives.
+   فارسی: آرشیوهای برنامه zip.
+
+zipfile
+   English: Zip archive reading and writing.
+   فارسی: خواندن و نوشتن آرشیو zip.
+
+zipimport
+   English: Zip archive import.
+   فارسی: import از آرشیو zip.
+
+zlib
+   English: zlib compression library.
+   فارسی: کتابخانه فشرده‌سازی zlib.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL GLOSSARY TERMS / تمام اصطلاحات واژه‌نامه
+═══════════════════════════════════════════════════════════════════════════════
+
+abstract base class
+   English: Classes that define interfaces using abstract methods.
+   فارسی: کلاس‌هایی که واسط‌ها را با استفاده از متدهای انتزاعی تعریف می‌کنند.
+
+annotation
+   English: Labels associated with variables, attributes, or function parameters.
+   فارسی: برچسب‌های مرتبط با متغیرها، ویژگی‌ها، یا پارامترهای تابع.
+
+argument
+   English: A value passed to a function or method.
+   فارسی: مقداری که به تابع یا متد ارسال می‌شود.
+
+asynchronous context manager
+   English: Object controlling environment in async with statement.
+   فارسی: شیء کنترل‌کننده محیط در دستور async with.
+
+asynchronous generator
+   English: Generator that yields values asynchronously.
+   فارسی: جنریتور که مقادیر را به صورت غیرهمزمان تولید می‌کند.
+
+atomic operation
+   English: Operation that executes as a single indivisible step.
+   فارسی: عملیاتی که به صورت یک مرحله غیرقابل تقسیم اجرا می‌شود.
+
+attribute
+   English: A value associated with an object referenced by name.
+   فارسی: مقداری مرتبط با یک شیء که با نام ارجاع داده می‌شود.
+
+awaitable
+   English: An object that can be used in an await expression.
+   فارسی: شیء قابل استفاده در عبارت await.
+
+BDFL
+   English: Benevolent Dictator For Life (Guido van Rossum).
+   فارسی: دیکتاتور مهربان مادام‌العمر (Guido van Rossum).
+
+binary file
+   English: File object for reading/writing bytes.
+   فارسی: شیء فایل برای خواندن/نوشتن بایت‌ها.
+
+borrowed reference
+   English: Reference where the code does not own the object.
+   فارسی: ارجاعی که کد مالک شیء نیست.
+
+bytecode
+   English: Compiled Python source code (internal representation).
+   فارسی: کد منبع کامپایل شده پایتون (نمایش داخلی).
+
+callable
+   English: An object that can be called with arguments.
+   فارسی: شیء که می‌توان با آرگومان فراخوانی کرد.
+
+callback
+   English: Function passed as an argument for later execution.
+   فارسی: تابعی که به عنوان آرگومان برای اجرای بعدی ارسال می‌شود.
+
+class
+   English: Template for creating user-defined objects.
+   فارسی: قالبی برای ایجاد اشیاء تعریف شده توسط کاربر.
+
+class variable
+   English: Variable defined in a class, shared by all instances.
+   فارسی: متغیر تعریف شده در کلاس که توسط همه نمونه‌ها به اشتراک گذاشته می‌شود.
+
+closure variable
+   English: Free variable referenced from a nested scope.
+   فارسی: متغیر آزاد ارجاع شده از محدوده تو در تو.
+
+complex number
+   English: Number with real and imaginary parts.
+   فارسی: عددی با بخش حقیقی و موهومی.
+
+concurrency
+   English: Ability to perform multiple tasks simultaneously.
+   فارسی: توانایی انجام همزمان چندین کار.
+
+context manager
+   English: Object implementing the context management protocol.
+   فارسی: شیء پیاده‌سازی کننده پروتکل مدیریت زمینه.
+
+context variable
+   English: Variable whose value depends on the current context.
+   فارسی: متغیری که مقدار آن به زمینه جاری بستگی دارد.
+
+coroutine
+   English: Generalized form of subroutine, enterable and resumable.
+   فارسی: شکل عمومی‌تری از زیرروال، قابل ورود و ازسرگیری.
+
+CPython
+   English: The canonical implementation of Python.
+   فارسی: پیاده‌سازی اصلی پایتون.
+
+data race
+   English: Concurrent memory access with at least one write without synchronization.
+   فارسی: دسترسی همزمان به حافظه با حداقل یک نوشتن بدون همگام‌سازی.
+
+deadlock
+   English: Situation where tasks wait indefinitely for each other.
+   فارسی: وضعیتی که وظایف بی‌نهایت منتظر یکدیگر می‌مانند.
+
+decorator
+   English: Function returning another function, applied with @ syntax.
+   فارسی: تابعی که تابع دیگری برمی‌گرداند، با سینتکس @ اعمال می‌شود.
+
+descriptor
+   English: Object defining __get__, __set__, or __delete__ methods.
+   فارسی: شیء که متدهای __get__، __set__، یا __delete__ را تعریف می‌کند.
+
+dictionary
+   English: Associative array mapping keys to values.
+   فارسی: آرایه انجمنی که کلیدها را به مقادیر نگاشت می‌کند.
+
+dictionary comprehension
+   English: Compact way to process iterable and return a dictionary.
+   فارسی: روشی فشرده برای پردازش iterable و بازگرداندن دیکشنری.
+
+dictionary view
+   English: Dynamic view of dictionary keys, values, or items.
+   فارسی: نمای پویا از کلیدها، مقادیر، یا آیتم‌های دیکشنری.
+
+docstring
+   English: String literal as first expression in class, function, or module.
+   فارسی: رشته‌ای که به عنوان اولین عبارت در کلاس، تابع، یا ماژول ظاهر می‌شود.
+
+duck-typing
+   English: Programming style focusing on interfaces rather than types.
+   فارسی: سبک برنامه‌نویسی که بر واسط‌ها تمرکز دارد نه نوع‌ها.
+
+dunder
+   English: Informal term for "double underscore" in special methods.
+   فارسی: اصطلاح غیررسمی برای "دو خط زیر" در متدهای خاص.
+
+EAFP
+   English: "Easier to ask for forgiveness than permission" coding style.
+   فارسی: سبک کدنویسی "درخواست بخشش آسان‌تر از اجازه است".
+
+expression
+   English: Syntax that can be evaluated to a value.
+   فارسی: سینتکسی که می‌توان به یک مقدار ارزیابی کرد.
+
+extension module
+   English: Module written in C/C++ using Python's C API.
+   فارسی: ماژولی که با C/C++ و با استفاده از C API پایتون نوشته شده است.
+
+file object
+   English: Object exposing file-oriented API (read/write).
+   فارسی: شیء که API فایل‌محور (خواندن/نوشتن) را ارائه می‌دهد.
+
+finder
+   English: Object that finds the loader for a module.
+   فارسی: شیء که loader را برای یک ماژول پیدا می‌کند.
+
+floor division
+   English: Division that rounds down to the nearest integer.
+   فارسی: تقسیمی که به نزدیک‌ترین عدد صحیح پایین گرد می‌کند.
+
+free threading
+   English: Threading model allowing multiple threads to run bytecode simultaneously.
+   فارسی: مدل رشته‌ای که به چندین رشته اجازه می‌دهد همزمان بایت‌کد اجرا کنند.
+
+free variable
+   English: Variable used in a namespace but not local to it.
+   فارسی: متغیری که در یک فضای نام استفاده می‌شود اما محلی آن نیست.
+
+function
+   English: Series of statements that returns a value to a caller.
+   فارسی: سری عبارات که مقداری را به فراخوان برمی‌گرداند.
+
+function annotation
+   English: Annotation of a function parameter or return value.
+   فارسی: annotation یک پارامتر تابع یا مقدار بازگشتی.
+
+garbage collection
+   English: Process of freeing memory when no longer used.
+   فارسی: فرآیند آزادسازی حافظه زمانی که دیگر استفاده نمی‌شود.
+
+generator
+   English: Function or expression that yields values lazily.
+   فارسی: تابع یا عبارتی که مقادیر را به صورت تنبل تولید می‌کند.
+
+generator expression
+   English: Expression that returns a generator iterator.
+   فارسی: عبارتی که یک iterator جنریتور برمی‌گرداند.
+
+generic function
+   English: Function composed of multiple implementations for different types.
+   فارسی: تابعی که از چندین پیاده‌سازی برای نوع‌های مختلف تشکیل شده است.
+
+generic type
+   English: Type that can be parameterized (e.g., list[int]).
+   فارسی: نوعی که می‌تواند پارامتری شود (مثلاً list[int]).
+
+GIL (Global Interpreter Lock)
+   English: Mechanism allowing only one thread to execute Python bytecode at a time.
+   فارسی: مکانیزمی که فقط به یک رشته اجازه می‌دهد همزمان بایت‌کد پایتون اجرا کند.
+
+hashable
+   English: Object with a hash value that never changes.
+   فارسی: شیء با مقدار هش که هرگز تغییر نمی‌کند.
+
+IDLE
+   English: Integrated Development and Learning Environment.
+   فارسی: محیط یکپارچه توسعه و یادگیری.
+
+immortal
+   English: Object whose reference count is never modified (never deallocated).
+   فارسی: شیء که تعداد مراجع آن هرگز تغییر نمی‌کند (هرگز تخصیص‌زدایی نمی‌شود).
+
+immutable
+   English: Object with a fixed value that cannot be altered.
+   فارسی: شیء با مقدار ثابت که نمی‌توان آن را تغییر داد.
+
+import path
+   English: List of locations searched for modules to import.
+   فارسی: لیست مکان‌هایی که برای وارد کردن ماژول‌ها جستجو می‌شود.
+
+importing
+   English: Process of making Python code from one module available in another.
+   فارسی: فرآیند در دسترس قرار دادن کد پایتون از یک ماژول در ماژول دیگر.
+
+importer
+   English: Object that both finds and loads a module.
+   فارسی: شیء که هم یک ماژول را پیدا می‌کند و هم بارگذاری می‌کند.
+
+index
+   English: Numeric value representing position of an element in a sequence.
+   فارسی: مقدار عددی که موقعیت یک عنصر را در یک دنباله نشان می‌دهد.
+
+interactive
+   English: Python interpreter where you can enter and execute statements interactively.
+   فارسی: مفسر پایتون که می‌توانید عبارات را به صورت تعاملی وارد و اجرا کنید.
+
+interpreted
+   English: Language that runs source code directly without explicit compilation.
+   فارسی: زبانی که کد منبع را مستقیماً بدون کامپایل صریح اجرا می‌کند.
+
+interpreter shutdown
+   English: Phase where Python releases all resources and exits.
+   فارسی: مرحله‌ای که پایتون همه منابع را آزاد می‌کند و خارج می‌شود.
+
+iterable
+   English: Object capable of returning its members one at a time.
+   فارسی: شیء قادر به بازگرداندن اعضای خود یکی یکی.
+
+iterator
+   English: Object representing a stream of data.
+   فارسی: شیء نمایش‌دهنده یک جریان داده.
+
+key
+   English: Value that identifies an entry in a mapping.
+   فارسی: مقداری که یک ورودی را در یک نگاشت شناسایی می‌کند.
+
+key function
+   English: Callable used for sorting or ordering.
+   فارسی: فراخوانی که برای مرتب‌سازی یا ترتیب‌دهی استفاده می‌شود.
+
+keyword argument
+   English: Argument preceded by an identifier (e.g., name=).
+   فارسی: آرگومانی که با یک شناسه قبل از آن می‌آید (مثلاً name=).
+
+lambda
+   English: Anonymous inline function consisting of a single expression.
+   فارسی: تابع ناشناس درون‌خطی که از یک عبارت واحد تشکیل شده است.
+
+LBYL
+   English: "Look before you leap" coding style (checks pre-conditions).
+   فارسی: سبک کدنویسی "قبل از پرش نگاه کن" (پیش‌شرط‌ها را بررسی می‌کند).
+
+loader
+   English: Object that loads a module.
+   فارسی: شیء که یک ماژول را بارگذاری می‌کند.
+
+list comprehension
+   English: Compact way to process elements and return a list.
+   فارسی: روشی فشرده برای پردازش عناصر و بازگرداندن یک لیست.
+
+lock
+   English: Synchronization primitive allowing only one thread to access a resource.
+   فارسی: ابتدایی همگام‌سازی که فقط به یک رشته اجازه می‌دهد به یک منبع دسترسی داشته باشد.
+
+mapping
+   English: Container object supporting arbitrary key lookups (e.g., dict).
+   فارسی: شیء ظرف که از جستجوی کلید دلخواه پشتیبانی می‌کند (مثلاً dict).
+
+metaclass
+   English: Class of a class - responsible for creating classes.
+   فارسی: کلاس یک کلاس - مسئول ایجاد کلاس‌ها.
+
+method
+   English: Function defined inside a class body.
+   فارسی: تابعی که درون بدنه یک کلاس تعریف شده است.
+
+method resolution order
+   English: Order in which base classes are searched for members.
+   فارسی: ترتیبی که کلاس‌های پایه برای اعضا جستجو می‌شوند.
+
+module
+   English: Organizational unit of Python code.
+   فارسی: واحد سازمانی کد پایتون.
+
+module spec
+   English: Namespace containing import-related information.
+   فارسی: فضای نام حاوی اطلاعات مرتبط با import.
+
+MRO
+   English: Method Resolution Order (see above).
+   فارسی: ترتیب حل متد (به بالا مراجعه کنید).
+
+mutable
+   English: Object whose state can change during program execution.
+   فارسی: شیء که وضعیت آن می‌تواند در طول اجرای برنامه تغییر کند.
+
+named tuple
+   English: Tuple with indexable elements accessible by named attributes.
+   فارسی: تاپلی که عناصر قابل ایندکس آن با ویژگی‌های نام‌دار قابل دسترسی هستند.
+
+namespace
+   English: Place where variables are stored.
+   فارسی: جایی که متغیرها در آن ذخیره می‌شوند.
+
+namespace package
+   English: Package serving only as a container for subpackages.
+   فارسی: بسته‌ای که فقط به عنوان ظرفی برای زیربسته‌ها عمل می‌کند.
+
+native code
+   English: Code compiled to machine instructions (C, C++, Rust, etc.).
+   فارسی: کدی که به دستورات ماشین کامپایل شده است (C، C++، Rust و غیره).
+
+nested scope
+   English: Ability to refer to variables in an enclosing definition.
+   فارسی: توانایی ارجاع به متغیرها در یک تعریف محصور.
+
+new-style class
+   English: Class flavor used for all class objects in modern Python.
+   فارسی: نوع کلاسی که برای همه اشیاء کلاس در پایتون مدرن استفاده می‌شود.
+
+object
+   English: Any data with state and defined behavior.
+   فارسی: هر داده‌ای با وضعیت و رفتار تعریف شده.
+
+optional module
+   English: Extension module that may be absent in some Python builds.
+   فارسی: ماژول افزونه که ممکن است در برخی ساخت‌های پایتون وجود نداشته باشد.
+
+package
+   English: Python module that can contain submodules or subpackages.
+   فارسی: ماژول پایتون که می‌تواند شامل زیرماژول‌ها یا زیربسته‌ها باشد.
+
+parallelism
+   English: Executing multiple operations simultaneously on different cores.
+   فارسی: اجرای همزمان چندین عملیات روی هسته‌های مختلف.
+
+parameter
+   English: Named entity in a function definition specifying an argument.
+   فارسی: موجودیت نام‌دار در تعریف تابع که یک آرگومان را مشخص می‌کند.
+
+path entry
+   English: Single location on the import path.
+   فارسی: یک مکان واحد در مسیر import.
+
+path entry finder
+   English: Finder that locates modules given a path entry.
+   فارسی: Finder که ماژول‌ها را با توجه به یک path entry پیدا می‌کند.
+
+path based finder
+   English: Meta path finder that searches an import path.
+   فارسی: Meta path finder که یک import path را جستجو می‌کند.
+
+path-like object
+   English: Object representing a file system path (str, bytes, PathLike).
+   فارسی: شیء نمایش‌دهنده یک مسیر سیستم فایل (str، bytes، PathLike).
+
+PEP
+   English: Python Enhancement Proposal - design document for Python features.
+   فارسی: پیشنهاد بهبود پایتون - سند طراحی برای ویژگی‌های پایتون.
+
+portion
+   English: Set of files in a directory contributing to a namespace package.
+   فارسی: مجموعه فایل‌ها در یک دایرکتوری که به یک بسته فضای نام کمک می‌کنند.
+
+positional argument
+   English: Argument that is not a keyword argument.
+   فارسی: آرگومانی که یک آرگومان کلیدی نیست.
+
+provisional API
+   English: API excluded from backwards compatibility guarantees.
+   فارسی: API که از تضمین‌های سازگاری معکوس مستثنی شده است.
+
+Python 3000
+   English: Nickname for the Python 3.x release line (Py3k).
+   فارسی: نام مستعار برای سری انتشارات پایتون ۳.x (Py3k).
+
+Pythonic
+   English: Code closely following common Python idioms.
+   فارسی: کدی که از اصطلاحات رایج پایتون پیروی می‌کند.
+
+qualified name
+   English: Dotted name showing path from module's global scope to an object.
+   فارسی: نام نقطه‌چین نشان‌دهنده مسیر از فضای سراسری ماژول به یک شیء.
+
+race condition
+   English: Behavior depending on relative timing of events.
+   فارسی: رفتاری که به زمان‌بندی نسبی رویدادها بستگی دارد.
+
+reference count
+   English: Number of references to an object.
+   فارسی: تعداد ارجاعات به یک شیء.
+
+regular package
+   English: Traditional package with an __init__.py file.
+   فارسی: بسته سنتی با فایل __init__.py.
+
+reentrant
+   English: Function or lock that can be called/acquired multiple times by the same thread.
+   فارسی: تابع یا قفلی که می‌تواند چندین بار توسط همان رشته فراخوانی/اختصاص داده شود.
+
+REPL
+   English: Read-Eval-Print Loop (interactive interpreter shell).
+   فارسی: حلقه خواندن-ارزیابی-چاپ (شل مفسر تعاملی).
+
+__slots__
+   English: Declaration in a class that saves memory by pre-declaring instance attributes.
+   فارسی: اعلامیه در یک کلاس که با پیش‌اعلام ویژگی‌های نمونه، حافظه را ذخیره می‌کند.
+
+sequence
+   English: Iterable supporting efficient element access by integer index.
+   فارسی: Iterable که از دسترسی کارآمد به عناصر با ایندکس عدد صحیح پشتیبانی می‌کند.
+
+set comprehension
+   English: Compact way to process iterable and return a set.
+   فارسی: روشی فشرده برای پردازش iterable و بازگرداندن یک مجموعه.
+
+single dispatch
+   English: Generic function dispatch based on the type of a single argument.
+   فارسی: توزیع تابع عمومی بر اساس نوع یک آرگومان.
+
+slice
+   English: Object describing a portion of a sequence.
+   فارسی: شیء توصیف‌کننده بخشی از یک دنباله.
+
+special method
+   English: Method implicitly called by Python for specific operations.
+   فارسی: متدی که به طور ضمنی توسط پایتون برای عملیات خاص فراخوانی می‌شود.
+
+standard library
+   English: Collection of packages and modules distributed with Python.
+   فارسی: مجموعه بسته‌ها و ماژول‌هایی که با پایتون توزیع می‌شوند.
+
+statement
+   English: Part of a suite (block of code) - expression or keyword construct.
+   فارسی: بخشی از یک suite (بلوک کد) - عبارت یا ساختار کلیدی.
+
+static type checker
+   English: External tool analyzing code for type issues.
+   فارسی: ابزار خارجی که کد را برای مشکلات نوع تحلیل می‌کند.
+
+strong reference
+   English: Reference where the code owns the object.
+   فارسی: ارجاعی که کد مالک شیء است.
+
+subscript
+   English: Expression in square brackets of a subscription expression.
+   فارسی: عبارت در کروشه‌های یک عبارت subscription.
+
+synchronization primitive
+   English: Basic building block for coordinating multiple threads.
+   فارسی: بلوک سازنده اساسی برای هماهنگی چندین رشته.
+
+text encoding
+   English: Serialization of Unicode strings to bytes.
+   فارسی: سریال‌سازی رشته‌های یونیکد به بایت.
+
+text file
+   English: File object able to read and write strings.
+   فارسی: شیء فایل قادر به خواندن و نوشتن رشته‌ها.
+
+thread state
+   English: Information used by CPython to run in an OS thread.
+   فارسی: اطلاعاتی که CPython برای اجرا در یک رشته سیستم‌عامل استفاده می‌کند.
+
+thread-safe
+   English: Code that behaves correctly when used by multiple threads concurrently.
+   فارسی: کدی که وقتی توسط چندین رشته به طور همزمان استفاده می‌شود، به درستی رفتار می‌کند.
+
+token
+   English: Small unit of source code (name, number, operator, etc.).
+   فارسی: واحد کوچکی از کد منبع (نام، عدد، عملگر و غیره).
+
+triple-quoted string
+   English: String bound by three quotation marks or apostrophes.
+   فارسی: رشته‌ای که با سه علامت نقل‌قول یا آپستروف محدود شده است.
+
+type
+   English: Determines what kind of object an object is.
+   فارسی: تعیین می‌کند که یک شیء چه نوع شیء است.
+
+type alias
+   English: Synonym for a type, created by assignment.
+   فارسی: مترادفی برای یک نوع، که با انتساب ایجاد می‌شود.
+
+type hint
+   English: Annotation specifying expected type for a variable or function.
+   فارسی: annotation که نوع مورد انتظار را برای یک متغیر یا تابع مشخص می‌کند.
+
+universal newlines
+   English: Interpreting \n, \r\n, and \r as line endings.
+   فارسی: تفسیر \n، \r\n، و \r به عنوان پایان‌دهنده خط.
+
+variable annotation
+   English: Annotation of a variable or class attribute.
+   فارسی: annotation یک متغیر یا ویژگی کلاس.
+
+virtual environment
+   English: Isolated runtime environment for Python packages.
+   فارسی: محیط اجرایی ایزوله برای بسته‌های پایتون.
+
+virtual machine
+   English: Computer defined entirely in software.
+   فارسی: کامپیوتری که کاملاً در نرم‌افزار تعریف شده است.
+
+walrus operator
+   English: Assignment expression operator (:=) that looks like a walrus.
+   فارسی: عملگر عبارت انتساب (:=) که شبیه به شیر دریایی است.
+
+Zen of Python
+   English: Listing of Python design principles and philosophies.
+   فارسی: فهرستی از اصول طراحی و فلسفه‌های پایتون.
+
+═══════════════════════════════════════════════════════════════════════════════
+END OF DICTIONARY / پایان دیکشنری
+═══════════════════════════════════════════════════════════════════════════════
